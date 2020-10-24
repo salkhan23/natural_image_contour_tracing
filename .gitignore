@@ -1,0 +1,16 @@
+# Compiled python files
+#----------------------
+*.py[cod]
+
+PyCharm MetaData
+#---------------------
+.idea
+
+#Tensorboard logs
+logs
+
+# Ignore these directories
+data
+results
+# Ignore the results directory
+

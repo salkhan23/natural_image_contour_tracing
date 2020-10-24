@@ -13,7 +13,7 @@ For each image a binary label is provided as to whether the two markers are conn
 1. This will create a new dataset under ./data/pathfinder_natural_images_test containing 50,000 train and 5000 test images.
 1. The script loops twice, first creating the train followed by the test datasets.
 1. Input images are stored under ./data/pathfinder_natural_images_test/<train/test>/images directiory and classification labels in  ./data/pathfinder_natural_images_test/<train/test>/classification_labels.txt
-1. In addition to this, several debug information and dataset metadata are also created. For more details refer to the create_dataset function. 
+1. In addition to this, several debug information and dataset metadata files and folders are also created. For more details refer to the create_dataset function. 
 
 ## Pytorch Data Loaders for Training
 1. After the pathfinder dataset is created, the Pytorch dataset (PathfinderNaturalImages) defined in dataset_pathfinder.py can be used to train models.
